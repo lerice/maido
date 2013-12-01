@@ -64,36 +64,77 @@ header {
 }
 
 #fixheight {
-	margin-top: -8px;
-	padding-left: 10px;
+	margin-top: 0px;
+	padding-left: 8px;
 }
 
-ul#navlist2 {
-	margin-left: 0px;
-	padding-left: 0px;
-	white-space: nowrap;
+#navbar {
+	margin: 0;
+	padding: 0;
+	height: 1em; 
 }
 
-#navlist2 li {
-	display: inline;
-	list-style-type: none;
+#navbar li {
+	list-style: none;
+	float: left; 
 }
 
-#navlist2 a {
-	padding: 8px 10px;
+#navbar li a {
+	display: block;
+	padding: 8px 8px;
+	margin-right: 8px;
+	color: #fff;
+	text-decoration: none; 
+}
+	
+#navbar li ul {
+	display: none; 
+	font-size: 12px;
+	font-weight: normal;
 }
 
-#navlist2 a:link, #navlist2 a:visited {
+#navbar li:hover ul, #navbar li.hover ul {
+	display: block;
+	position: absolute;
+	margin: -1px;
+	padding: 0; 
+}
+	
+#navbar li:hover li, #navbar li.hover li {
+	float: none; 
+}
+	
+#navbar li:hover li a, #navbar li.hover li a {
+	background-color: #FFFFFF;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-color: #000000;
+	color: #000000; 
+	padding: 3px 8px;
+}
+
+.lastdrop {
+	border-bottom: 1px solid;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+	
+#navbar li li a:hover {
+	color: #990000;
+}
+
+#navbar a:link, #navbar a:visited {
 	color: #FFFFFF;
 	text-decoration: none;
 }
 
-#navlist2 a:hover {
-	background: #990000;
+#navbar a:hover {
+	background: #FFFFFF;
+	color: #990000;
 }
 
 #cart {
-	padding-left: 30px;
+	padding-left: 45px;
 }
 
 /* css for content */
@@ -104,13 +145,6 @@ ul#navlist2 {
 
 #main {
 	padding-left: 18px;
-	padding-bottom: 20px;
-	background: #FFFFFF;
-	border-bottom-left-radius: 7px;
-	border-top-left-radius: 7px;
-	border-top-right-radius: 7px;
-	border-bottom-right-radius: 7px;
-	box-shadow: rgb(0, 0, 0) 1px 1px 4px 0px;
 }
 
 #popularProducts {
