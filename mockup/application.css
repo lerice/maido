@@ -161,9 +161,59 @@ header {
 }
 
 #popularProducts {
-	background: #990000;
+	margin-top: 20px;
 	margin-left: 20px;
 	margin-right: 20px;
+	border: 3px dotted;
+	border-color: #E4E4E4;
+}
+
+#bestselltitle {
+	font-weight: 200;
+	font-size: 220%;
+	letter-spacing: -2px;
+	
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.bestsellproduct {
+	display: inline-block;
+	width: 180px;
+	height: 250px;
+	border: 1px solid;
+	border-color: #CCCCCC;
+	border-radius: 9px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+}
+
+.bestsellproduct:hover {
+	border: 1px solid;
+	border-color: #990000;
+	background: #FFF0F0;
+	color: #000000;
+}
+
+.bestsellimage {
+	width: 150px;
+	height: 150px;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+
+.producttitle {
+	text-align: center;
+}
+
+.productprice {
+	text-align: center;
+	font-weight: 180;
+	font-size: 220%;
+	letter-spacing: -2px;
+	margin-top: -5px;
+	margin-bottom: 0px;
 }
 
 /* css for footer */
@@ -207,9 +257,13 @@ footer > p > a:hover {
 	float: left;
 }
 
-#slider li { list-style: none; }
+#slider li { 
+	list-style: none; 
+}
 	
-#slider ul li { float: left; }
+#slider ul li {
+	float: left;
+}
 
 /* formating link hover colours */
 
