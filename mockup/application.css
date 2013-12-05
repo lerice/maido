@@ -277,6 +277,115 @@ header {
 	margin-top: 20px;
 }
 
+#producttitle {
+	font-size: 17px;
+	font-weight: 700;
+}
+
+#productdiv {
+	border: 1px solid;
+	border-color: #CCCCCC;
+	height: 400px;
+	padding: 5px;
+}
+
+#productpicture {
+	width: 400px;
+	height: 400px;
+}
+
+#productleftdiv {
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	
+}
+
+#productmiddlediv {
+	height: 400px;
+	width: 286px;
+	display: inline-block;
+	vertical-align: top;
+	border-left: 1px solid;
+	border-color: #E4E4E4;
+	padding-left: 5px;
+}
+
+#productrightdiv {
+	background: #E4E4E4;
+	height: 400px;
+	width: 250px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+}
+
+#priceheading {
+	font-weight: 100;
+	font-size: 180%;
+	letter-spacing: -1px;
+}
+
+#price {
+	font-weight: 180;
+	font-size: 350%;
+	letter-spacing: -2px;
+	margin-top: -5px;
+}
+
+#addtocart {
+	display: block;
+	width: 150px;
+	height: 50px;
+	background: url(images/addtocart.png) bottom;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#addtocart:hover {
+	background-position: 0 0;
+}
+
+#anglelist {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+#anglelist li {
+	float: left;
+	margin: 2px;	
+}
+
+.differentanglepic{
+	border: 1px solid;
+	border-color: #FFFFFF;
+}
+
+.differentanglepic:hover{
+	border: 1px solid;
+	border-color: #990000;
+}
+
+#reviews {
+	border-top: 1px dashed;
+	border-color: #E4E4E4;
+}
+
+.subheading {
+	font-weight: bold;
+	color: #FFA042;
+	font-size: 130%;
+}
+
+.reviewdiv {
+	border: 2px solid;
+	border-color: #E4E4E4;
+	border-radius: 8px;
+	padding: 0px 10px 0px 10px;
+	margin-bottom: 15px;
+}
+
 /* css for footer */
 
 footer {
