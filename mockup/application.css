@@ -145,7 +145,9 @@ header {
 }
 
 #main {
-
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
 }
 
 #adspace {
@@ -177,7 +179,7 @@ header {
 	text-align: right;
 }
 
-.bestsellproduct {
+.showproduct {
 	display: inline-block;
 	width: 180px;
 	height: 250px;
@@ -188,7 +190,7 @@ header {
 	margin-bottom: 5px;
 }
 
-.bestsellproduct:hover {
+.showproduct:hover {
 	border: 1px solid;
 	border-color: #990000;
 	background: #FFF0F0;
@@ -243,6 +245,36 @@ header {
 	margin-right: 20px;
 	
 	line-height: 150%;
+}
+
+#navpara {
+	font-size: 15px;
+}
+
+#productnavbar {
+	margin-left: 5px;
+	margin-right: 12px;
+	padding-left: 13px;
+	padding-right: 13px;
+	background-image: url(images/pnavbarback.png);
+	background-repeat: repeat-x;
+	border: 1px solid;
+	border-radius: 8px;
+	border-color: #CCCCCC;
+}
+
+#productnavbarpages {
+	text-align: center;
+	margin-top: -28px;
+}
+
+#productnavbarsort {
+	text-align: right;
+	margin-top: -28px;
+}
+
+#showproducts {
+	margin-top: 20px;
 }
 
 /* css for footer */

@@ -2,7 +2,7 @@
 <html>
 <head>
 	<meta charset="utf-8"/>
-	<title> maido - Japanese Online Retailer </title>
+	<title>TEMPLATE PAGE | maido</title>
 	<link rel="stylesheet" type="text/css" href="application.css"/>
 	<link rel = "shortcut icon" href = "images/favicon.ico"/>
 	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
@@ -34,7 +34,7 @@
 
 		<div id="nav">
 			<div id="fixheight">
-				<ul id="navbar">
+				<ul id="navbar1" class="navbar">
 					<li><a href="#">Accessories</a><ul>
 						<li><a href="#">Sub catagory 1</a></li>
 						<li><a href="#">Sub catagory 2</a></li>
@@ -106,40 +106,79 @@
 						<li><a href="#">Sub catagory 4</a></li>
 						<li><a href="#" class="lastdrop">Sub catagory 5</a></li>
 					</ul></li>
-					<li><a href="#" title="next page">></a></li>
-					<li id="cart"><a href="#" title="view cart">cart</a></li>
+					<li><a id="nextpage" href="#" title="next page">></a></li>
+					<li id="cart"><a href="#" title="view cart"><img src="images/cart.png" alt="cart"/></a></li>
+				</ul>
+				
+				<ul id="navbar2" class="navbar">
+					<li><a id="previouspage" href="#" title="previous page"><</a></li>
+					<li><a href="#">In case we need more space</a><ul>
+						<li><a href="#">Sub catagory 1</a></li>
+						<li><a href="#">Sub catagory 2</a></li>
+						<li><a href="#">Sub catagory 3</a></li>
+						<li><a href="#">Sub catagory 4</a></li>
+						<li><a href="#" class="lastdrop">Sub catagory 5</a></li>
+					</ul></li>
+					<li><a href="#">Appliances</a><ul>
+						<li><a href="#">Air Conditioning (21)</a></li>
+						<li><a href="#">Coffee Machines (19)</a></li>
+						<li><a href="#">Fans (8)</a></li>
+						<li><a href="#">Heaters (5)</a></li>
+						<li><a href="#">Ovens (8)</a></li>
+						<li><a href="#" class="lastdrop">Washing Machines (4)</a></li>
+					</ul></li>
+					<li id="cart"><a href="#" title="view cart"><img src="images/cart.png" alt="cart"/></a></li>
 				</ul>
 			</div>
 		</div>
 		
 		<div id="body">	
 			<div id="main">
-				hi
+				<div id="slidercontainer">
+					<div id="slider">
+						<ul>
+							<li><img src="images/slider/1.jpg" alt="1"/></li>
+							<li><img src="images/slider/2.jpg" alt="2"/></li>
+							<li><img src="images/slider/3.jpg" alt="3"/></li>
+						</ul>
+					</div>
+				</div>
+				
+				<div id="adspace">
+					<img src="images/freeshipping.png" alt="free shipping" title="Free shipping for all orders above $50!"/>
+					<p><br/>space for more ads!</p>
+				</div>
 			</div>
 			
 			<div id="popularProducts">
-				<p>popular products</p>
-				<p>popular products</p>
-				<p>popular products</p>
-				<p>popular products</p>
+				<p id="bestselltitle">Our Top Five Products</p>
+				
+				<a href="#"><div class="bestsellproduct">
+					<img src="images/aircon.jpg" alt="Product Name" class="bestsellimage"/>
+					<p class="producttitle">JHS8 Portable Air-Conditioner / Fan / Dehumidifier / Heater</p>
+					<p class="productprice">$299.00</p>
+				</div></a>
+				<a href="#"><div class="bestsellproduct">
+					<img src="images/tempproduct.jpg" alt="Product Name" class="bestsellimage"/>
+					<p class="producttitle">Product Title<br/>(2 lines)</p>
+					<p class="productprice">$xx.00</p>
+				</div></a>
+				<a href="#"><div class="bestsellproduct">
+					<img src="images/tempproduct.jpg" alt="Product Name" class="bestsellimage"/>
+					<p class="producttitle">Product Title<br/>(2 lines)</p>
+					<p class="productprice">$xx.00</p>
+				</div></a>
+				<a href="#"><div class="bestsellproduct">
+					<img src="images/tempproduct.jpg" alt="Product Name" class="bestsellimage"/>
+					<p class="producttitle">Product Title<br/>(2 lines)</p>
+					<p class="productprice">$xx.00</p>
+				</div></a>
+				<a href="#"><div class="bestsellproduct">
+					<img src="images/tempproduct.jpg" alt="Product Name" class="bestsellimage"/>
+					<p class="producttitle">Product Title<br/>(2 lines)</p>
+					<p class="productprice">$xx.00</p>
+				</div></a>
 			</div>
-			
-			<div id="popularProducts2">
-				<p>shop by brands</p>
-				<p>shop by brands</p>
-				<p>shop by brands</p>
-			</div>
-			
-			<div id="popularProducts3">
-				<p>filler text goes here. filler text goes here.filler text goes here.
-				filler text goes here.filler text goes here.filler text goes here.filler text goes here.
-				filler text goes here.filler text goes here.filler text goes here.filler text goes here.
-				filler text goes here.filler text goes here.filler text goes here.filler text goes here.
-				filler text goes here.filler text goes here.filler text goes here.filler text goes here.
-				filler text goes here.filler text goes here.filler text goes here.filler text goes here.
-				filler text goes here.filler text goes here.filler text goes here.filler text goes here.</p>
-			</div>
-		</div>
 		
 		<footer>
 			<p><a href="#">Terms &amp; Conditions</a> | 
